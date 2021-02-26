@@ -1,0 +1,17 @@
+package br.com.ecommerce.principal;
+
+import javax.swing.JOptionPane;
+
+import br.com.ecommerce.modelo.Cliente;
+
+public class TesteCliente {
+
+	public static void main(String[] args) {
+		
+		
+		Cliente c = new Cliente();
+		c.getId()
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package br.com.ecommerce.principal;
+
+import javax.swing.JOptionPane;
+
+import br.com.ecommerce.modelo.Cliente;
+
+public class TesteCliente {
+
+	public static void main(String[] args) {
+		
+		
+		Cliente c = new Cliente(
+				5,
+				"REGINA",
+				"cleberson@gama",
+				"1234-5678"
+				);
+		System.out.println(c.getAll());
+		System.out.println("Usuario: " + c.getUsuario());
+
+	}
+
+}

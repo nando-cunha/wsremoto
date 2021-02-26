@@ -1,0 +1,29 @@
+package br.com.ecommerce.modelo;
+
+public class Produto {
+	
+	private int id;
+	private String descrição;
+	private float valorCompra;
+	private float valorVenda;
+	private int qtde;
+	
+	public float getTotalCompra(float valorCompra) {
+		valorCompra = valorCompra * qtde;
+		return valorCompra;
+	}
+	
+	public float getDesconto(float valorVenda) {
+		valorVenda = (float) (valorVenda - 0.09);
+			return "Valor com desconto:";
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,59 @@
+package br.com.ecommerce.modelo;
+
+public class Produto {
+	
+	private int id;
+	private String descricao;
+	private float valorCompra;
+	private float valorVenda;
+	private int qtde;
+	
+	
+	public int getId() {
+		return id;
+	}
+	
+	public float getTotalCompra(float valorCompra) {
+		valorCompra = valorCompra * qtde;
+		return valorCompra;
+	}
+	
+	public float getDesconto(float desconto) {
+		desconto = (float) (valorVenda * 0.09);
+		return desconto;
+		
+	}
+	public String getResumo() {
+		return "descricao: " + descricao +
+				"\nValor da venda: " + valorVenda +
+				"\nQuantidade comprada: " + qtde;
+	}
+	
+	public void setAll(int idProduto, String descricaoProduto, float valorCompraTotal, float valorVendaTotal, int qtdeComprada ) {
+		id=idProduto;
+		descricao=descricaoProduto;
+		valorCompra=valorCompraTotal;
+	}
+	
+	public String verificarEstoque() {
+		if (qtde>10) {
+			return "Estoque alto.";
+		}
+		else if (qtde<5) {
+			return "Estoque baixo.";
+		}
+		else {
+			return "Estoque médio.";
+		}
+	}
+	public void ajustarValores(float porcentagem, float valorVendaAjustado, float valorCompraAjustado) {
+		valorVenda = (float) (valorVendaAjustado * porcentagem);
+		valorCompra = (float) (valorCompraAjustado * porcentagem);
+	}
+	
+	
+
+}
+	
+	
+

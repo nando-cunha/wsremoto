@@ -1,0 +1,66 @@
+package br.com.caicai.modelo;
+
+public class Elevador {
+	
+	private String nome;
+	private short andarMaximo;
+	private short andarMinimo;
+	private short andarAtual;
+	private byte capacidadeMaxima;
+	private byte qtdePessoas;
+	
+	
+	public void configurar(short andarMaximo, short andarMinimo, byte capacidadeMaxima) {
+		
+		
+	}
+	
+	public void preencherNome(String param) {
+		nome = param.toUpperCase();
+	}
+	
+	public String retornaNome() {
+		return nome;
+			
+	}
+	
+	public void subir(short andarAtual) {
+		if(andarAtual!=andarMaximo) {
+			andarAtual = 1;
+		}
+	}
+	
+	public void descer(short andarAtual) {
+		if(andarAtual!=andarMinimo) {
+			andarAtual = -1;
+		}
+	}
+	public String sair() {
+		
+		
+	}
+	public String entrar() {
+		
+	}
+	public void subirAndar(short andarAtual) {
+		
+	}
+	public String exibirResumo() {
+		return "Andar atual: " + andarAtual + 
+			   "Quantidade de pessoas: " + qtdePessoas +
+			   "Nome do elevador: " + nome;
+				
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

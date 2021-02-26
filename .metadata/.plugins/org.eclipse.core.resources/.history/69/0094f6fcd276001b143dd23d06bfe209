@@ -1,0 +1,28 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio4Repeticao {
+
+	public static void main(String[] args) {
+		int idade = 0;
+		String nome = "";
+		for (int contador=1; contador<5; contador++);
+		{
+			idade = Integer.parseInt(JOptionPane.showInputDialog("Digite idade: "));
+			nome = JOptionPane.showInputDialog("Digite seu nome: ");	
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

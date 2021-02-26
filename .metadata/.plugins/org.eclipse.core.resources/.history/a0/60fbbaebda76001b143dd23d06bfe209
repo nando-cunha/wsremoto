@@ -1,0 +1,36 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio4Repeticao {
+
+	public static void main(String[] args) {
+		int idade = 0;
+		String nome = "";
+		int cont_maior_idade = 0;
+		for (int contador=1; contador<5; contador++)
+		{
+			idade = Integer.parseInt(JOptionPane.showInputDialog("Digite idade: "));
+			nome = JOptionPane.showInputDialog("Digite seu nome: ");
+			do
+			{
+				cont_maior_idade = cont_maior_idade++;
+			}
+			while(idade>=18);
+		}	
+		System.out.println("Quantidade maiores de idade: " + cont_maior_idade);				
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+

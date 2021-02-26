@@ -1,0 +1,34 @@
+package variaveis;
+
+public class TiposDados {
+	
+	public static void main(String[] args) {
+		/*
+		 * Alfanumérico: é um dado que você não utiliza em operações aritméticas.
+		 * 
+		 * Numérico: é um dado que pode ser utilizado em operações.
+		 */
+		String nome = "Fernando Cunha";
+		int idade = 37;
+		double altura = 1.84;
+		System.out.println(nome);
+		System.out.println(idade);
+		System.out.println(altura);
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

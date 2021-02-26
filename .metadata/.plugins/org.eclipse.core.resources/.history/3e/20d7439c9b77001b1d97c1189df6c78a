@@ -1,0 +1,50 @@
+package br.com.caicai.implementacao;
+
+import javax.swing.JOptionPane;
+
+import br.com.caicai.modelo.Elevador;
+
+public class TesteElevador {
+
+	public static void main(String[] args) {
+		
+		Elevador objeto = new Elevador();
+		objeto.configurar((Short.parseShort(JOptionPane.showInputDialog("Informe andar máximo:"))));
+		objeto.configurar((Short.parseShort(JOptionPane.showInputDialog("Informe o andar mínimo: "))));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

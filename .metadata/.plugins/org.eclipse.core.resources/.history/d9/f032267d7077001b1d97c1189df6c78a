@@ -1,0 +1,56 @@
+package br.com.concessionaria.modelo;
+
+public class Carro {
+
+	private float valor;
+	private String cor;
+	private boolean status;
+	private short velocidadeAtual;
+	private String modelo;
+	
+	public String retornarCor( ) {
+		
+	}
+	
+	
+	
+	//sintaxe para os metodos
+	//<modificador> <tipo do retorno> <nome do metodo> (<tipo do param> <nome do param>) {
+	
+	public void preencherCor(String param) {
+		cor = param;
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
